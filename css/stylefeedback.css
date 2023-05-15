@@ -1,0 +1,340 @@
+
+        * {
+            font-family: "Playfair Display"
+        }
+
+        h1 {
+            color: blue;
+            font-size: 48;
+        }
+
+        p {
+            color: red;
+        }
+
+        div {
+            background-color: white
+        }
+
+        #1 {
+            background-color: #aacbff;
+        }
+
+        .row {
+            font-size: 21px;
+        }
+
+        #circle_text {
+            display: inline-block;
+            padding-left: 10px;
+        }
+
+        p {
+            color: black;
+        }
+
+        #circle1 {
+            width: 30px;
+            height: 30px;
+            background: red;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 20px;
+            border-radius: 200px;
+            border: 1px solid red;
+            display: inline-block;
+            padding: 0px;
+            font-family: "Playfair Display";
+        }
+
+        #singleline {
+            display: inline-block;
+        }
+
+        #circle2 {
+            width: 30px;
+            height: 30px;
+            background: #328314;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 200px;
+            border: 1px solid #328314;
+            display: inline-block;
+            padding: 1px;
+        }
+
+        #circle3 {
+            width: 30px;
+            height: 30px;
+            background: #0089ff;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 200px;
+            border: 1px solid #0089ff;
+            display: inline-block;
+            padding: 1px;
+        }
+
+        textarea {
+            resize: none;
+            border-radius: 7px;
+            border: solid 2px #78a1cb;
+            /*white-space: nowrap;*/
+            font-size: 17px;
+            height: 31px;
+            padding-left: 4px;
+            padding-right: 1px;
+            width: 100%;
+        }
+
+        #game {
+            padding-left: 6px;
+            padding-right: 3px;
+        }
+
+        .buttonRed {
+            background-color: red;
+            /* Red*/
+            border: none;
+            color: white;
+            padding: 8px 18px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .buttonRed:hover {
+            background-color: rgba(255, 115, 0, 0.767)
+        }
+
+        .buttonBlue {
+            background-color: rgb(0, 0, 255);
+            border: none;
+            color: white;
+            padding: 8px 18px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .buttonBlue:hover {
+            background-color: rgba(38, 0, 255, 0.623)
+        }
+
+        /* Create four equal columns that floats next to each other */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create four equal columns that floats next to each other */
+
+
+        #t1 {
+            margin-top: 50px;
+            text-align: left;
+        }
+
+        .type {
+            text-align: center;
+            color: #756bea;
+            font-size: 29px;
+        }
+
+        /* Responsive layout into 2 col - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 900px) {
+            .column25 {
+                width: 50%;
+            }
+
+            .column50 {
+                width: 50%;
+            }
+
+            .column33 {
+                width: 100%;
+            }
+
+            .column67 {
+                width: 100%;
+            }
+        }
+
+        /* Responsive layout into 1 Col - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column25 {
+                width: 100%;
+            }
+
+            .column50 {
+                width: 100%;
+            }
+
+            .column33 {
+                width: 100%;
+            }
+
+            .column67 {
+                width: 100%;
+            }
+        }
+
+        #other {
+            text-align: center;
+        }
+
+
+        .ml00 {
+            margin-left: 0px;
+        }
+
+        .ml10 {
+            margin-left: 10px;
+        }
+
+        .ml30 {
+            margin-left: 30px;
+        }
+
+        .ml50 {
+            margin-left: 50px;
+        }
+
+        .ml75 {
+            margin-left: 75px;
+        }
+
+        .ml90 {
+            margin-left: 90px;
+        }
+
+        .ml100 {
+            margin-left: 100px;
+        }
+
+        .cType {
+            color: black;
+        }
+
+        .rButton {
+            margin-left: 15px;
+        }
+
+        /*#c1,c2{
+        
+    }
+    
+    .clear{
+        clear: both;
+    }*/
+
+        .Alldiv {
+            text-align: center;
+            font-size: 21px;
+            float: left;
+        }
+
+        .mealType {
+            text-align: left;
+        }
+
+        .box {
+            color: black;
+            padding: 5px;
+            margin: 10px;
+            border-style: groove;
+        }
+
+        .grid {
+            text-align: center;
+            font-size: 20px;
+            margin: 1px;
+            float: left;
+        }
+
+        .top2 {
+            margin-top: 12px;
+        }
+
+        .right2 {
+            margin-left: 26px;
+        }
+
+        .extra1 {
+            margin-top: 16px;
+        }
+
+        .extra2 {
+            margin-top: 16px;
+        }
+
+        .cuisine {
+            margin-top: -12px;
+        }
+        
+
+        .input-hidden {
+            position: absolute;
+            left: -9999px;
+        }
+
+        input[type=radio]:checked+label>img {
+            border: 1px solid #fff;
+            box-shadow: 0 0 3px 3px #090;
+        }
+
+        /* Stuff after this is only to make things more pretty */
+        input[type=radio]+label>img {
+            width: 20px;
+            height: 20px;
+            transition: 500ms all;
+        }
+
+        input[type=radio]:checked+label>img {
+            transform:
+                rotateZ(-10deg) rotateX(10deg);
+        }
+
+        #divleft {
+            float: left;
+        }
+
+        #divright {
+            float: right;
+        }
+
+        #cardioType {
+            float: left;
+            width: 100%;
+        }
+
+        .check {
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+
+        .check2 {
+            margin-top: 5px;
+            margin-left: 10px;
+            margin-right: 13px;
+        }
+
+        .check3 {
+            margin-top: 20px;
+            margin-right: 23px;
+        }
+
+        .check4 {
+            margin-top: 5px;
+            margin-left: 10px;
+            margin-right: 9px;
+        }
