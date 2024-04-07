@@ -2,8 +2,7 @@ NastarBaksho
 # https://elma17.github.io/NastarBaksho/
 NastarBaksho is a Bangla Customized Nastar Baksho item that has all the traditional Bengali snack that you can order as much as you wish, It has the weekly, monthly and yearly subcription system that allows you to customized your order and we take feedback after every order so that we can keep you and our snack cravings fulfilled. 
 
-# Paper 
-Link: https://docs.google.com/document/d/1Gn74opup1Vzki6qlzKfJjGTF56-U6xAh/edit?usp=sharing&ouid=113851226069807994036&rtpof=true&sd=true
+Paper Link: https://docs.google.com/document/d/1Gn74opup1Vzki6qlzKfJjGTF56-U6xAh/edit?usp=sharing&ouid=113851226069807994036&rtpof=true&sd=true
 The paper includes system representation methods such as ERDs, data flow diagrams, use case diagrams, CRUD matrices, etc.. It highlights information-gathering methods such as JADs, and funnel interview techniques, etc.
 
 ![Screenshot 2023-09-27 181238](https://github.com/Elma17/NastarBaksho/assets/114817868/36248972-2756-40e3-bded-5304af8ae9c0)
